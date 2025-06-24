@@ -1,0 +1,42 @@
+{
+  "css.validate": false,
+  "less.validate": false,
+  "scss.validate": false,
+  "files.associations": {
+    "*.css": "tailwindcss"
+  },
+  "editor.quickSuggestions": {
+    "strings": true
+  },
+  "tailwindCSS.includeLanguages": {
+    "html": "html",
+    "javascript": "javascript",
+    "typescript": "typescript",
+    "javascriptreact": "javascriptreact",
+    "typescriptreact": "typescriptreact"
+  },
+  "tailwindCSS.emmetCompletions": true,
+  "editor.suggest.showReferences": true,
+  "editor.inlineSuggest.enabled": true,
+  "editor.suggest.shareSuggestSelections": true,
+  "editor.suggest.preview": true,
+  "postcss.validate": false,
+  "stylelint.validate": ["css", "scss"],
+  "css.customData": ["./.vscode/css-data.json"],
+  "html.customData": ["./.vscode/css-data.json"],
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/Thumbs.db": true,
+    "**/node_modules": true
+  },
+  "css.lint.unknownAtRules": "ignore",
+  "css.lint.validProperties": [],
+  "files.watcherExclude": {
+    "**/node_modules/**": true,
+    "**/ignore-css/**": true
+  }
+} 

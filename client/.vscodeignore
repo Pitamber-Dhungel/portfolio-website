@@ -1,0 +1,3 @@
+src/ignore-css/**
+**/*.css
+node_modules/** 
